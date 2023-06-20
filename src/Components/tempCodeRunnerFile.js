@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
+
 class Employee extends Component {
   constructor(props) {
     super(props);
@@ -157,7 +158,7 @@ class Employee extends Component {
           </label>
           <br />
 
-
+          
           {editingIndex !== null ? (
             <button type="button" onClick={this.handleUpdateEmployee}>
               Update Employee
